@@ -13,6 +13,10 @@ public class ConversaoNumeroString {
 		System.out.println(Integer.toString(num2));
 		System.out.println(Integer.toString(num2).length());
 		
+		Long.toString(num2);
+		//Short.toString(num2);
+		//Byte.toString(num2);
+		
 		//concatenando com string vazia
 		System.out.println("" + num2);
 		System.out.println(("" + num2).length());
