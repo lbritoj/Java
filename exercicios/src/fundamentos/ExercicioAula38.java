@@ -21,6 +21,7 @@ public class ExercicioAula38 {
 		System.out.print("\nInforme o terceiro salário:");
 		String salario3 = teclado.next().replace(",", ".");
 		
+		//fechar o scanner
 		teclado.close();
 		
 		double s1 = Double.parseDouble(salario1);
