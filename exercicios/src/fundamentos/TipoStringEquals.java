@@ -14,10 +14,14 @@ public class TipoStringEquals {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		String s2 = teclado.next();
+		String s2 = teclado.next(); // O next tambem remove os espaços em branco, diferente do nextLine
 		System.out.println("2" == s2.trim()); //trim remove os espaços em branco
 		System.out.println("2".equals(s2.trim()));
 		teclado.close();
+		
+		/*
+		 * A dica dessa aula é sempre usar o equals para comparar Strings.
+		 */
 		
 	}
 
