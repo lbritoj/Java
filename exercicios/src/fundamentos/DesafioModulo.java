@@ -14,7 +14,7 @@ public class DesafioModulo {
 		String op = teclado.next();
 		
 		
-		//Lógica
+		// Lógica
 		double resultado = "+".equals(op) ? num1 + num2 : 0;
 		resultado = "-".equals(op) ? num1 - num2 : resultado;
 		resultado = "*".equals(op) ? num1 * num2 : resultado;
