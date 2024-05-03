@@ -7,8 +7,8 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Produto p1 = new Produto();
-		p1.nome = "Notebook";
+		Produto p1 = new Produto("Notebook");
+		//p1.nome = "Notebook";
 		p1.preco = 4359.89;
 		p1.desconto = 0.25;
 		
